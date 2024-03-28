@@ -204,7 +204,6 @@
     align-items: center;
     justify-content: center;
     background: transparent;
-    padding: 6px;
     border: 0;
     cursor: pointer;
 }
@@ -235,7 +234,7 @@
         z-index: 10;
     }
     .menu-container .items-container.slide{
-        height: 21vh;
+        height: 200px;
         opacity: 1;
     }
     .btn-hamburger{
@@ -243,25 +242,36 @@
     }
 }
 
+@media screen and (max-width:600px){
+    .banner-content .text-info h1{
+        font-size: 1.8rem !important;
+    }
+    .banner-content .text-info p{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width:520px){
     .menu-container .profile .img-profile{
         margin-right: 5px;
+        max-height: 40px;
+        max-width: 40px;
     }
     .menu-container .profile .info-profile span{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .menu-container .profile .info-profile p{
-        font-size: 0.6;
+        font-size: 0.8rem;
     }
     .select-language button{
-        padding: 0.4rem 0.5rem;
+        padding: 0.2rem 0.4rem;
     }
 
     .confi-selector{
         grid-column-gap: 0.5rem;
     }
     .menu-container .confi-selector .bg-mode{
-        padding: 6px;
+        padding: 4px;
     }
     .menu-container .confi-selector .bg-mode .icon-moon, .icon-sun {
         height: 26px;
