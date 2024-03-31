@@ -20,6 +20,7 @@
     --bgcl: #f8f8f8;
     --grayFont: #2e2e2e;
     --black-white: #fff;
+    --box: #fff;
 }
 .app.dark-mode{
     --bgcl: #141219;
@@ -27,7 +28,7 @@
     --grayFont: #cacaca;
     --black-white: #000;
     --violet: #7c61ff;
-    --purple: #2f2259;
+    --box: #1b1724;
 }
 
 .app{

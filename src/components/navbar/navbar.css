@@ -4,7 +4,6 @@
     top: 0;
     max-width: 1200px;
     margin: auto;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .menu-container{
@@ -16,7 +15,10 @@
     height: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left:10px;
+    padding-right:10px;
     max-height: 90px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .menu-container .profile{
@@ -208,14 +210,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1230px){
-    .menu-container .profile{
-        margin-left: 10px;
-    }
-    .confi-selector{
-        margin-right: 10px;
-    }
-}
 @media screen and (max-width:850px){
     .menu-container .items-container{
         background: var(--purple);
