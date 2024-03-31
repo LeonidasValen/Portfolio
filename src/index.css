@@ -21,13 +21,14 @@
     --grayFont: #2e2e2e;
     --black-white: #fff;
     --box: #fff;
+    --violet: #8368db;
 }
 .app.dark-mode{
     --bgcl: #141219;
     --colorFont: #fff;
     --grayFont: #cacaca;
     --black-white: #000;
-    --violet: #7c61ff;
+    --violet: #2f2259;
     --box: #1b1724;
 }
 

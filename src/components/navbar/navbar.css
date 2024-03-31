@@ -212,7 +212,7 @@
 
 @media screen and (max-width:850px){
     .menu-container .items-container{
-        background: var(--purple);
+        background: var(--violet);
         flex-direction: column;
         position: absolute;
         justify-content: flex-start;
