@@ -1,0 +1,46 @@
+.footer{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3rem;
+}
+.footer .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #535253;
+    margin: 0 10px;
+}
+
+
+.footer-content .footer-text{
+    text-align: center;
+}
+
+.footer .footer-content h1{
+    letter-spacing: 0.05em;
+    text-shadow: 3px 2px 0px #9955c7, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact-content{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+.contact-content .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--colorFont);
+}
+.contact-content .contact svg{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 490px) {
+    .contact-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

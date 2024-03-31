@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { Navbar } from './components/navbar/navbar';
 import { Home } from "./components/home/home";
+import { Skills } from "./components/skills/skills";
+import { Footer } from "./components/footer/footer";
 
 function App() {
       //darkmode
@@ -24,8 +26,12 @@ function App() {
   return (
     <Router>
       <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
+
         <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
         <Home/>
+        <Skills/>
+        <Footer/>
+
       </div>
     </Router>
   )
