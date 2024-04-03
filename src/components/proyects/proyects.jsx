@@ -2,12 +2,17 @@ import proyects from '../../api/proyect.json'
 import { useLanguage } from '../../context/languageContext'
 import './proyect.css'
 
+const title = {
+    Español: "Proyectos",
+    English: "Proyect"
+  };
+
 export function Proyects(){
     const {language} = useLanguage()
 
     return(
         <section className='proyects'>
-            <h1>Proyectos</h1>
+            <h1>{title[language]}</h1>
             <div className="content-tabs">
                 {/* <ul className='tabs'>
                     <li className="tabs-item active">Proyectos 1</li>

@@ -1,6 +1,13 @@
+import { useLanguage } from '../../context/languageContext';
 import './skills.css'
 
+const title = {
+  Español: "Lenguajes y tecnología",
+  English: "Skills ​​and technology"
+};
+
 export function Skills(){
+  const { language } = useLanguage();
 
     const skills = [
         {
@@ -54,7 +61,7 @@ export function Skills(){
     return(
         <section className="lenguaje">
 
-            <h1>Lenguajes y tecnología</h1>
+            <h1>{title[language]}</h1>
             
             <div className="lenguaje-content">
                 {skills.map((tech, index) => (
