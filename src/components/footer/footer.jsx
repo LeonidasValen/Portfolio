@@ -1,12 +1,19 @@
+import { useLanguage } from '../../context/languageContext';
 import './footer.css'
 
+const copyrightText = {
+    Español: "© Diseño reservado e imágenes hecho con IA",
+    English: "© Design reserved and images made with AI"
+};
+
 export function Footer(){
+    const { language } = useLanguage();
     return(
         <footer className='footer'>
             <div className="footer-content">
                 <div className='footer-text'>
                     <h1>Leonidas</h1>
-                    <p>© Diseño reservado e imagenes echo con IA</p>
+                    <p>{copyrightText[language]}</p>
                 </div>
                 <div className='contact-content'>
                     <div className='contact'>

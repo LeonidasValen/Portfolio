@@ -30,7 +30,7 @@ export function Skills(){
         },
         {
           "icon": "icons/react.png",
-          "lenguaje": "React",
+          "lenguaje": "ReactJS",
           "ani": 5
         },
         {

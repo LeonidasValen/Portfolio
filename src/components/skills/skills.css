@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 10px;
+    margin-bottom: 2rem;
 }
 
 .lenguaje h1{
@@ -80,7 +81,7 @@
     }
 }
 
-@media screen and (min-width:680px) {
+@media screen and (min-width:750px) {
     .tech-icon:hover{
         transform: scale(1.1);
         height: 110px;
@@ -95,6 +96,9 @@
 }
 
 @media screen and (max-width:1112px){
+    .lenguaje{
+        margin-bottom: 3.1rem;
+    }
     .lenguaje-content{
         display: flex;
         justify-content: space-evenly;
@@ -108,7 +112,10 @@
     }
 }
 
-@media screen and (max-width:680px){
+@media screen and (max-width:750px){
+    .lenguaje{
+        margin-bottom: 1rem;
+    }
     .lenguaje-content{
         gap: 12px;
     }

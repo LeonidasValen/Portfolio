@@ -1,4 +1,3 @@
-
 .banner{
     max-width: 1200px;
     margin: auto;
@@ -31,6 +30,8 @@
 }
 .banner-content .banner-img img{
     height: 350px;
+    width: 350px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
     background: #b0cde6;
@@ -80,5 +81,6 @@
     }
     .banner-content .banner-img img{
         height: 280px;
+        width: 280px;
     }
 }

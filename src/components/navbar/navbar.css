@@ -4,6 +4,7 @@
     top: 0;
     max-width: 1200px;
     margin: auto;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .menu-container{
@@ -15,15 +16,13 @@
     height: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left:10px;
-    padding-right:10px;
     max-height: 90px;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .menu-container .profile{
     display: flex;
     align-items: center;
+    margin-left:10px;
 }
 .menu-container .profile .img-profile{
     display: flex;
@@ -33,6 +32,7 @@
     margin-right: 10px;
 }
 .menu-container .profile img{
+    aspect-ratio: 1/1;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -84,6 +84,7 @@
     display: flex;
     align-items: center;
     grid-column-gap: 1.4rem;
+    margin-right: 10px;
 }
 .menu-container .confi-selector .bg-mode{
     display: grid;

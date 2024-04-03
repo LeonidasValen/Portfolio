@@ -4,6 +4,9 @@ import { Navbar } from './components/navbar/navbar';
 import { Home } from "./components/home/home";
 import { Skills } from "./components/skills/skills";
 import { Footer } from "./components/footer/footer";
+import { Proyects } from "./components/proyects/proyects";
+
+import { LanguageProvider } from "./context/languageContext";
 
 function App() {
       //darkmode
@@ -26,12 +29,13 @@ function App() {
   return (
     <Router>
       <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
-
-        <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
-        <Home/>
-        <Skills/>
-        <Footer/>
-
+        <LanguageProvider>
+          <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
+          <Home/>
+          <Skills/>
+          <Proyects/>
+          <Footer/>
+        </LanguageProvider>
       </div>
     </Router>
   )

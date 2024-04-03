@@ -1,0 +1,48 @@
+[{
+    "id":"pro1",
+    "href": "https://ubidec.dsdesarrollo.com.ar/",
+    "thumbnail": "./img/ubidec.png",
+    "skills":[
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+    ],
+    "title": "Ubidec",
+    "desc": {
+        "Español": "¿Qué es Ubidec? Es una página informativa que proporciona información a las personas sobre institutos educativos, como la ubicación, información...",
+        "English": "What is Ubidec? It is an informative page that provides information to people about educational institutes, such as location, information..."
+    }
+},
+{
+    "id":"pro2",
+    "href": "https://leonidasvalen.github.io/netflix-clone/",
+    "thumbnail": "./img/netflix.png",
+    "skills":[
+        "ReactJS",
+        "ViteJS",
+        "CSS"
+    ],
+    "title": "Netflix",
+    "desc": {
+        "Español": "Intento de copia de Netflix. Si no te deja entrar, haz clic en \"detalles\" y \"visita este sitio no seguro\".",
+        "English": "Attempt to clone Netflix. If it doesn't let you in, click on \"details\" and \"visit this unsafe site\"."
+    }
+},
+{
+    "id":"pro3",
+    "href": "",
+    "thumbnail": "./img/crud.jpg",
+    "skills":[
+        "ReactJS",
+        "ViteJS",
+        "CSS"
+    ],
+    "title": "CRUD",
+    "desc": {
+        "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está subido y terminado.",
+        "English": "The CRUD project, developed with React and API handling, is not yet uploaded and finished."
+    }
+}
+]

@@ -1,20 +1,25 @@
+import { useLanguage } from '../../context/languageContext';
 import './home.css'
 
-export function Home(){
+const aboutMeText = {
+    Español: "Mi nombre es Leonel Valenzuela soy programador fullstack y un apasionado por el mundo de la programación, siempre estoy preparado para aprender, mejorar y desarrollarme técnicamente en este ámbito, creando sitios eficientes para ayudar y dar solución a los problemas.",
+    English: "My name is Leonel Valenzuela, I am a fullstack programmer and passionate about the world of programming. I am always ready to learn, improve, and develop technically in this field, creating efficient websites to help and solve problems."
+};
 
-    // const handleDownload = () => {
-    //     const url = `./pdf/cv-leonel-valenzuela.pdf`; // Ruta relativa al archivo PDF en la carpeta public
-    //     const anchor = document.createElement('a');
-    //     anchor.href = url;
-    //     anchor.download = 'cv-leonel-valenzuela.pdf'; // Nombre del archivo que se descargará
-    //     anchor.click();
-    //   };
+const buttonText = {
+    Español: "Descargar CV",
+    English: "Download CV"
+};
+
+export function Home(){
+    const { language } = useLanguage();
+
     return(
         <section className='banner'>
             <div className='banner-content'>
                 <div className='text-info'>
                     <h1>Sobre mi</h1>
-                    <p>Mi nombre es Leonel Valenzuela soy programador fullstack y un apasionado por el mundo de la programación, siempre estoy preparado para aprender, mejorar y desarrollarme técnicamente en este ámbito, creando sitios eficientes para ayudar y dar solución a los problemas.</p>
+                    <p>{aboutMeText[language]}</p>
                     <div className='btn-info-content'>
 
                         <a className='btn-bg' href="https://www.linkedin.com/in/leonel-valenzuela-65aa462b4/" aria-label='link linkedin' target="_blank">
@@ -47,7 +52,7 @@ export function Home(){
                                     <path d="M7 11l5 5l5 -5" />
                                     <path d="M12 4l0 12" />
                                 </svg>
-                                Descargar cv
+                                {buttonText[language]}
                             </button>
                         </a>
 
