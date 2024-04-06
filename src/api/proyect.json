@@ -32,7 +32,7 @@
 },
 {
     "id":"pro3",
-    "href": "",
+    "href": "https://leonidasvalen.github.io/crud-reactjs/",
     "thumbnail": "./img/crud.jpg",
     "skills":[
         "ReactJS",
@@ -41,8 +41,8 @@
     ],
     "title": "CRUD",
     "desc": {
-        "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está subido y terminado.",
-        "English": "The CRUD project, developed with React and API handling, is not yet uploaded and finished."
+        "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está del todo terminado proto habra modificaciones.",
+        "English": "The CRUD project, developed with React and API handling, is not yet fully completed so there will be modifications."
     }
 }
 ]

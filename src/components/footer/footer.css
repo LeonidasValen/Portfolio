@@ -11,6 +11,7 @@
     flex-direction: column;
     border-top: 1px solid #535253;
     margin: 0 10px;
+    padding-bottom: 1.2rem;
 }
 
 .footer-content .footer-text{

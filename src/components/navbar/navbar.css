@@ -1,10 +1,12 @@
 .nav-menu{
     display: flex;
-    position: static;
+    position: sticky;
     top: 0;
+    background: var(--bgcl);
     max-width: 1200px;
     margin: auto;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    z-index: 1000;
 }
 
 .menu-container{
@@ -62,10 +64,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
-.menu-container .items-container .menu-items a:hover{
-    color: var(--grayFont);
-}
+
 .menu-container .items-container .menu-items:hover::before{
     width: 100%;
 }

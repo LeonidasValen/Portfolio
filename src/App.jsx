@@ -9,21 +9,28 @@ import { Proyects } from "./components/proyects/proyects";
 import { LanguageProvider } from "./context/languageContext";
 
 function App() {
-      //darkmode
-      const [darkMode, setDarkMode] = useState(false);
-    
-      const toggleDarkMode = () => {
-          setDarkMode(!darkMode);
-          // Guarda el estado en localStorage para persistencia
-          localStorage.setItem('darkMode', !darkMode ? 'dark' : 'light');
-      };
-  
-      useEffect(() => {
-          const savedMode = localStorage.getItem('darkMode');
-          if (savedMode === 'dark') {
-              setDarkMode(true);
-          }
-      }, [toggleDarkMode]);
+  //verifica si el sistema esta en modo oscuro
+  const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  //verifica si hay una preferencia de modo gurdado
+  const storedDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+
+  //si hay un modo almacena usara ese sino usara la preferencia del sistema
+  const [darkMode, setDarkMode] = useState(storedDarkMode !== null ? storedDarkMode : prefersDarkMode);
+
+  //si hay un cambio en el sistema de modo actualiza su modo
+  useEffect(() => {
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const handleChange = (e) => setDarkMode(e.matches);
+      mediaQuery.addListener(handleChange);
+      return () => mediaQuery.removeListener(handleChange);
+  }, []);
+
+  //alterna los modos y lo alamacena
+  const toggleDarkMode = () => {
+      const newMode = !darkMode;
+      setDarkMode(newMode);
+      localStorage.setItem('darkMode', JSON.stringify(newMode));
+  };
 
 
   return (
