@@ -11,7 +11,7 @@ export function Proyects(){
     const {language} = useLanguage()
 
     return(
-        <section className='proyects'>
+        <section className='proyects' id='proyects'>
             <h1>{title[language]}</h1>
             <div className="content-tabs">
                 {/* <ul className='tabs'>
@@ -24,6 +24,7 @@ export function Proyects(){
                         {proyects.map((proyect)=>(
                             <article className='proyect-article' key={proyect.id}>
                                 <a href={proyect.href} target='_black'>
+                                
                                 <header className='img-proyect'>
                                     <img src={proyect.thumbnail} alt="foto-proyecto" />
                                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -36,6 +37,7 @@ export function Proyects(){
                                     <span>{proyect.title}</span>
                                     <p>{proyect.desc[language]}</p>
                                 </div>
+                                
                                 <div className='skills-proyects'>
                                     {proyect.skills.map((skill, index) => (
                                         <div key={index} className='skill'>{skill}</div>

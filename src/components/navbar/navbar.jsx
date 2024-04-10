@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+//import { NavLink, animateScroll as scroll  } from "react-router-dom";
 import { useLanguage } from "../../context/languageContext";
+import { Link as NavLink, animateScroll as scroll } from 'react-scroll';
 
 import './navbar.css';
 
@@ -63,6 +64,9 @@ export function Navbar({ toggleDarkMode, darkMode }) {
         setSlideMenu(!slideMenu);
     }
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+      };
 
 
     return (
@@ -77,10 +81,10 @@ export function Navbar({ toggleDarkMode, darkMode }) {
                 </div>
 
                 <ul className={slideMenu ? 'items-container slide' : 'items-container'}>
-                    <li className="menu-items"><NavLink to="/">{NavText[language].inicio}</NavLink></li>
-                    <li className="menu-items"><NavLink to="/">{NavText[language].proyectos}</NavLink></li>
-                    <li className="menu-items"><NavLink to="/">{NavText[language].experiencias}</NavLink></li>
-                    <li className="menu-items"><NavLink to="/">{NavText[language].contactos}</NavLink></li>
+                    <li className="menu-items"><NavLink onClick={slideMenu ? toggleMenu : undefined} to="home" smooth={true} duration={500} offset={-100}>{NavText[language].inicio}</NavLink></li>
+                    <li className="menu-items"><NavLink onClick={slideMenu ? toggleMenu : undefined} to="proyects" smooth={true} duration={500} offset={-100}>{NavText[language].proyectos}</NavLink></li>
+                    <li className="menu-items"><NavLink onClick={slideMenu ? toggleMenu : undefined} to="experiences" smooth={true} duration={500} offset={-100}>{NavText[language].experiencias}</NavLink></li>
+                    <li className="menu-items"><NavLink onClick={slideMenu ? toggleMenu : undefined} to="footer" smooth={true} duration={500} offset={-100}>{NavText[language].contactos}</NavLink></li>
                 </ul>
 
                 <div className="confi-selector" ref={menuRef}>

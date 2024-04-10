@@ -11,14 +11,19 @@ const buttonText = {
     English: "Download CV"
 };
 
+const aboutMe = {
+    Español: "Sobre mi",
+    English: "About me"
+};
+
 export function Home(){
     const { language } = useLanguage();
 
     return(
-        <section className='banner'>
+        <section className='banner' id='home'>
             <div className='banner-content'>
                 <div className='text-info'>
-                    <h1>Sobre mi</h1>
+                    <h1>{aboutMe[language]}</h1>
                     <p>{aboutMeText[language]}</p>
                     <div className='btn-info-content'>
 

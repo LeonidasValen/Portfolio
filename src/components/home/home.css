@@ -20,6 +20,7 @@
 
 .banner-content .text-info h1{
     font-size: 2rem;
+    color: var(--purple);
 }
 
 .banner-content .banner-img{

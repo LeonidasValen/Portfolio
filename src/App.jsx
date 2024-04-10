@@ -7,6 +7,7 @@ import { Footer } from "./components/footer/footer";
 import { Proyects } from "./components/proyects/proyects";
 
 import { LanguageProvider } from "./context/languageContext";
+import { Experiences } from "./components/experiences/experiences";
 
 function App() {
   //verifica si el sistema esta en modo oscuro
@@ -41,6 +42,7 @@ function App() {
           <Home/>
           <Skills/>
           <Proyects/>
+          <Experiences/>
           <Footer/>
         </LanguageProvider>
       </div>

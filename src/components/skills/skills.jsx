@@ -13,46 +13,55 @@ export function Skills(){
         {
           "icon": "icons/html-5.png",
           "lenguaje": "HTML",
+          "color": "#ff5722",
           "ani": 4
         },
         {
           "icon": "icons/css-3.png",
           "lenguaje": "CSS",
+          "color": "#2196f3",
           "ani": 3
         },
         {
           "icon": "icons/js.png",
           "lenguaje": "JavaScript",
+          "color": "#ffdf00",
           "ani": 10
         },
         {
           "icon": "icons/php.png",
           "lenguaje": "PHP",
+          "color": "#777bb3",
           "ani": 3
         },
         {
           "icon": "icons/mysql.png",
           "lenguaje": "MySQL",
+          "color": "#00608c",
           "ani": 5
         },
         {
           "icon": "icons/react.png",
           "lenguaje": "ReactJS",
+          "color": "#00d8ff",
           "ani": 5
         },
         {
           "icon": "icons/nodejs.png",
           "lenguaje": "NodeJS",
+          "color": "#8bc500",
           "ani": 6
         },
         {
           "icon": "icons/vitejs.png",
           "lenguaje": "ViteJS",
+          "color": "#b440fe",
           "ani": 6
         },
         {
           "icon": "icons/next.png",
           "lenguaje": "NextJS",
+          "color": "#000",
           "ani": 5
         }
       ]
@@ -67,7 +76,7 @@ export function Skills(){
                 {skills.map((tech, index) => (
                     <div className="lenguaje-icon" key={`item${index}`}>
                         <div className='tech-icon'>
-                            <img src={tech.icon} alt="" />
+                            <img src={tech.icon}  alt="" />
                             <div className="lenguaje-text">
                                 <span style={{ animation: `teclear 0.3s steps(${tech.ani}), border 0.5s step-end infinite alternate` }}>
                                     {tech.lenguaje}

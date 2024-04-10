@@ -212,7 +212,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:882px){
     .menu-container .items-container{
         background: var(--violet);
         flex-direction: column;

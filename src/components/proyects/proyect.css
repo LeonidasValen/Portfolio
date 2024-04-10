@@ -72,6 +72,7 @@
     height: 200px;
 }
 .img-proyect svg{
+    color: #fff;
     position: absolute;
     background: #29007961;
     border-radius: 5px;

@@ -15,11 +15,12 @@
 
 .app{
     --colorFont: #000;
-    --bgcl: #f8f8f8;
-    --grayFont: #5b5b5b;
+    --bgcl: #f3f3f3;
+    --grayFont: #4e4e4e;
     --black-white: #fff;
     --box: #fff;
     --violet: #a896e5;
+    --purple: #8264f1;
 }
 .app.dark-mode{
     --bgcl: #141219;
@@ -27,6 +28,7 @@
     --grayFont: #cacaca;
     --black-white: #000;
     --violet: #2f2259;
+    --purple: #c055ff ;
     --box: #1b1724;
 }
 

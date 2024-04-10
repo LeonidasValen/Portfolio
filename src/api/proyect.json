@@ -33,7 +33,7 @@
 {
     "id":"pro3",
     "href": "https://leonidasvalen.github.io/crud-reactjs/",
-    "thumbnail": "./img/crud.jpg",
+    "thumbnail": "./img/crud.png",
     "skills":[
         "ReactJS",
         "ViteJS",

@@ -9,7 +9,7 @@ const copyrightText = {
 export function Footer(){
     const { language } = useLanguage();
     return(
-        <footer className='footer'>
+        <footer className='footer' id='footer'>
             <div className="footer-content">
                 <div className='footer-text'>
                     <h1>Leonidas</h1>
