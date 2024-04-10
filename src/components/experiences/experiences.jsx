@@ -13,7 +13,7 @@ export function Experiences(){
     const isInview = useInView(ref, { once: true });
 
     return(
-        <section className='experiences' id='experiences' >
+        <section className='experiences' id='experiences'>
             <h1>Experiencias y educacion</h1>
             <div className='experiences-content' ref={ref}>
 

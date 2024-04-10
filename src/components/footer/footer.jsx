@@ -2,8 +2,8 @@ import { useLanguage } from '../../context/languageContext';
 import './footer.css'
 
 const copyrightText = {
-    Español: "© Diseño reservado e imágenes hecho con IA",
-    English: "© Design reserved and images made with AI"
+    Español: "© Diseño reservado e avatar hecho con IA",
+    English: "© Design reserved and avatar made with AI"
 };
 
 export function Footer(){
