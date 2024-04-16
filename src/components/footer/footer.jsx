@@ -2,7 +2,7 @@ import { useLanguage } from '../../context/languageContext';
 import './footer.css'
 
 const copyrightText = {
-    Español: "© Diseño reservado e avatar hecho con IA",
+    Español: "© Diseño reservado y avatar hecho con IA",
     English: "© Design reserved and avatar made with AI"
 };
 
