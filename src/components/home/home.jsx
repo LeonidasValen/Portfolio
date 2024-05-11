@@ -49,7 +49,7 @@ export function Home(){
                                 GitHub
                             </button>
                         </a>
-                        <a className='btn-bg' href="./pdf/cv-leonel-valenzuela.pdf" download="cv-leonel-valenzuela.pdf" aria-label='descarga de cv'>
+                        <a className='btn-bg' href="./pdf/CV-Leonel-Valenzuela.pdf" download="cv-leonel-valenzuela.pdf" aria-label='descarga de cv'>
                             <button className='btn-cv'>
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  strokeWidth="2"  strokeLinecap="round"  strokeLinejoin="round"  className="icon icon-tabler icons-tabler-outline icon-tabler-download">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

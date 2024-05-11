@@ -44,5 +44,37 @@
         "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está del todo terminado pronto habra modificaciones.",
         "English": "The CRUD project, developed with React and API handling, is not yet fully completed so there will be modifications."
     }
+},
+{
+    "id":"pro4",
+    "href": "https://github.com/LeonidasValen/Blog-users",
+    "thumbnail": "./img/blog.png",
+    "skills":[
+        "ReactJS",
+        "ViteJS",
+        "NodeJS",
+        "Express",
+        "MySQL"
+    ],
+    "title": "Blog",
+    "desc": {
+        "Español": "Un blog con registro de usuarios donde puede comentar, dar opiniones y noticias. Esta pagina es de código abierto incorporado con cookies y JWT",
+        "English": "A blog with user registration where users can comment, give opinions, and read news. This website is open-source and incorporates cookies and JWT."
+    }
+},
+{
+    "id":"pro5",
+    "href": "https://eest14lamatanza.edu.ar/",
+    "thumbnail": "./img/tecnica14.png",
+    "skills":[
+        "ReactJS",
+        "ViteJS",
+        "CSS"
+    ],
+    "title": "Página Escuela Técnica",
+    "desc": {
+        "Español": "Este es un concepto de la página de la escuela técnica todavía sigue en desarrollo y estoy guiando a los alumnos de la escuela a terminarlo.",
+        "English": "This is a concept for the technical school's website. It's still under development, and I'm guiding the school's students to finish it."
+    }
 }
 ]

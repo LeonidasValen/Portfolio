@@ -17,7 +17,7 @@
     flex-wrap: wrap;
     gap: 10px; */
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     justify-content: space-between;
     height: 90px; 
     gap: 12px;
@@ -83,8 +83,8 @@
 @media screen and (min-width:750px) {
     .tech-icon:hover{
         transform: scale(1.1);
-        height: 110px;
-        width: 110px;
+        height: 105px;
+        width: 105px;
     }
     .tech-icon:hover img{
         height: 55px;
@@ -104,10 +104,10 @@
         flex-wrap: wrap;
         height: auto;
         gap: 38px;
-        column-gap: 12px;
+        column-gap: 16px;
     }
     .lenguaje-icon{
-        padding: 20px;
+        padding: 12px;
     }
 }
 
@@ -120,5 +120,12 @@
     }
     .lenguaje-icon{
         padding: 0px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .tech-icon{
+        height: 60px;
+        width: 60px;
     }
 }

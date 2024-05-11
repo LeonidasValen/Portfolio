@@ -6,6 +6,11 @@ import { motion, useInView, useAnimation } from "framer-motion";
 
 import './experiences.css'
 
+const title = {
+  Español: "Experiencias y educacion",
+  English: "experiences and education"
+};
+
 export function Experiences(){
     const {language} = useLanguage()
 
@@ -14,7 +19,7 @@ export function Experiences(){
 
     return(
         <section className='experiences' id='experiences'>
-            <h1>Experiencias y educacion</h1>
+            <h1>{title[language]}</h1>
             <div className='experiences-content' ref={ref}>
 
             <motion.div className="time-line" 

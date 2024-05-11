@@ -41,6 +41,12 @@ export function Skills(){
           "ani": 5
         },
         {
+          "icon": "icons/mongodb.png",
+          "lenguaje": "MongoDB",
+          "color": "#00608c",
+          "ani": 7
+        },
+        {
           "icon": "icons/react.png",
           "lenguaje": "ReactJS",
           "color": "#00d8ff",
@@ -51,6 +57,12 @@ export function Skills(){
           "lenguaje": "NodeJS",
           "color": "#8bc500",
           "ani": 6
+        },
+        {
+          "icon": "icons/express2.png",
+          "lenguaje": "Express",
+          "color": "#8bc500",
+          "ani": 7
         },
         {
           "icon": "icons/vitejs.png",
