@@ -1,8 +1,8 @@
 import experiences from '../../api/experiences.json'
 import { useLanguage } from '../../context/languageContext'
 
-import { useRef,useEffect, useState } from 'react'
-import { motion, useInView, useAnimation } from "framer-motion";
+import { useRef} from 'react'
+import { motion, useInView } from "framer-motion";
 
 import './experiences.css'
 

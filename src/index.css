@@ -21,6 +21,7 @@
     --box: #fff;
     --violet: #a896e5;
     --purple: #8264f1;
+    --hover:rgb(230 215 255);
 }
 .app.dark-mode{
     --bgcl: #141219;
@@ -30,6 +31,7 @@
     --violet: #2f2259;
     --purple: #c055ff ;
     --box: #1b1724;
+    --hover: #2a233f;
 }
 
 .app{
