@@ -1,80 +1,97 @@
-[{
-    "id":"pro1",
-    "href": "https://ubidec.dsdesarrollo.com.ar/",
-    "thumbnail": "./img/ubidec.png",
-    "skills":[
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "MySQL"
-    ],
-    "title": "Ubidec",
-    "desc": {
-        "Español": "¿Qué es Ubidec? Es una página informativa que proporciona información a las personas sobre institutos educativos, como la ubicación, información...",
-        "English": "What is Ubidec? It is an informative page that provides information to people about educational institutes, such as location, information..."
+[
+    {
+        "id": "pro1",
+        "href": "https://ubidec.dsdesarrollo.com.ar/",
+        "thumbnail": "./img/ubidec.png",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "title": "Ubidec",
+        "desc": {
+            "Español": "¿Qué es Ubidec? Es una página informativa que proporciona información a las personas sobre institutos educativos, como la ubicación, información...",
+            "English": "What is Ubidec? It is an informative page that provides information to people about educational institutes, such as location, information..."
+        }
+    },
+    {
+        "id": "pro2",
+        "href": "https://leonidasvalen.github.io/netflix-clone/",
+        "thumbnail": "./img/netflix.png",
+        "skills": [
+            "ReactJS",
+            "ViteJS",
+            "CSS"
+        ],
+        "title": "Netflix",
+        "desc": {
+            "Español": "Intento de copia de Netflix. Si no te deja entrar, haz clic en \"detalles\" y \"visita este sitio no seguro\".",
+            "English": "Attempt to clone Netflix. If it doesn't let you in, click on \"details\" and \"visit this unsafe site\"."
+        }
+    },
+    {
+        "id": "pro3",
+        "href": "https://leonidasvalen.github.io/crud-reactjs/",
+        "thumbnail": "./img/crud.png",
+        "skills": [
+            "ReactJS",
+            "ViteJS",
+            "CSS"
+        ],
+        "title": "CRUD",
+        "desc": {
+            "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está del todo terminado pronto habra modificaciones.",
+            "English": "The CRUD project, developed with React and API handling, is not yet fully completed so there will be modifications."
+        }
+    },
+    {
+        "id": "pro4",
+        "href": "https://github.com/LeonidasValen/Blog-users",
+        "thumbnail": "./img/blog.png",
+        "skills": [
+            "ReactJS",
+            "ViteJS",
+            "NodeJS",
+            "Express",
+            "MySQL"
+        ],
+        "title": "Blog",
+        "desc": {
+            "Español": "Un blog con registro de usuarios donde puede comentar, dar opiniones y noticias. Esta pagina es de código abierto incorporado con cookies y JWT",
+            "English": "A blog with user registration where users can comment, give opinions, and read news. This website is open-source and incorporates cookies and JWT."
+        }
+    },
+    {
+        "id": "pro5",
+        "href": "https://eest14lamatanza.edu.ar/",
+        "thumbnail": "./img/tecnica14.png",
+        "skills": [
+            "ReactJS",
+            "ViteJS",
+            "CSS"
+        ],
+        "title": "Página Escuela Técnica",
+        "desc": {
+            "Español": "Este es un concepto de la página de la escuela técnica todavía sigue en desarrollo y estoy guiando a los alumnos de la escuela a terminarlo.",
+            "English": "This is a concept for the technical school's website. It's still under development, and I'm guiding the school's students to finish it."
+        }
+    },
+    {
+        "id": "pro6",
+        "href": "https://github.com/LeonidasValen/Bookig_proyect",
+        "thumbnail": "./img/booking.png",
+        "skills": [
+            "ReactJS",
+            "NodeJS",
+            "Express",
+            "MongoDB"
+        ],
+        "title": "Booking",
+        "desc": {
+            "Español": "Este es un concepto de la página de la escuela técnica todavía sigue en desarrollo y estoy guiando a los alumnos de la escuela a terminarlo.",
+            "English": "This is a concept for the technical school's website. It's still under development, and I'm guiding the school's students to finish it."
+        }
     }
-},
-{
-    "id":"pro2",
-    "href": "https://leonidasvalen.github.io/netflix-clone/",
-    "thumbnail": "./img/netflix.png",
-    "skills":[
-        "ReactJS",
-        "ViteJS",
-        "CSS"
-    ],
-    "title": "Netflix",
-    "desc": {
-        "Español": "Intento de copia de Netflix. Si no te deja entrar, haz clic en \"detalles\" y \"visita este sitio no seguro\".",
-        "English": "Attempt to clone Netflix. If it doesn't let you in, click on \"details\" and \"visit this unsafe site\"."
-    }
-},
-{
-    "id":"pro3",
-    "href": "https://leonidasvalen.github.io/crud-reactjs/",
-    "thumbnail": "./img/crud.png",
-    "skills":[
-        "ReactJS",
-        "ViteJS",
-        "CSS"
-    ],
-    "title": "CRUD",
-    "desc": {
-        "Español": "El proyecto CRUD, desarrollado con React y manejo de API, aún no está del todo terminado pronto habra modificaciones.",
-        "English": "The CRUD project, developed with React and API handling, is not yet fully completed so there will be modifications."
-    }
-},
-{
-    "id":"pro4",
-    "href": "https://github.com/LeonidasValen/Blog-users",
-    "thumbnail": "./img/blog.png",
-    "skills":[
-        "ReactJS",
-        "ViteJS",
-        "NodeJS",
-        "Express",
-        "MySQL"
-    ],
-    "title": "Blog",
-    "desc": {
-        "Español": "Un blog con registro de usuarios donde puede comentar, dar opiniones y noticias. Esta pagina es de código abierto incorporado con cookies y JWT",
-        "English": "A blog with user registration where users can comment, give opinions, and read news. This website is open-source and incorporates cookies and JWT."
-    }
-},
-{
-    "id":"pro5",
-    "href": "https://eest14lamatanza.edu.ar/",
-    "thumbnail": "./img/tecnica14.png",
-    "skills":[
-        "ReactJS",
-        "ViteJS",
-        "CSS"
-    ],
-    "title": "Página Escuela Técnica",
-    "desc": {
-        "Español": "Este es un concepto de la página de la escuela técnica todavía sigue en desarrollo y estoy guiando a los alumnos de la escuela a terminarlo.",
-        "English": "This is a concept for the technical school's website. It's still under development, and I'm guiding the school's students to finish it."
-    }
-}
 ]

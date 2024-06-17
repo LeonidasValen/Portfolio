@@ -47,7 +47,7 @@ export function Proyects(){
                             </article>
                         ))}
                        <article className='proyects-grid'>
-                        {proyects.slice(3,5).map((proyect)=>(
+                        {proyects.slice(3,6).map((proyect)=>(
                             <article className='proyect-article' key={proyect.id}>
                                 <a href={proyect.href} target='_black'>
                                 

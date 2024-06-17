@@ -94,6 +94,9 @@
     gap: 8px;
     margin-top: 8px;
 }
+.app .skills-proyects .skill{
+    color:rgb(105 19 255) ;
+}
 .skills-proyects .skill{
     font-size: 14px;
     font-weight: 400;
@@ -109,8 +112,10 @@
     justify-content: center;
     align-items: center;
     gap: 28px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column: span 3/span 3;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: span 3 / span 1;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-column: span 3/span 3; */
 }
 }
 @media screen and (max-width:940px){
