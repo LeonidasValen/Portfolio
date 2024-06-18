@@ -97,10 +97,12 @@
 .app .skills-proyects .skill{
     color:rgb(105 19 255) ;
 }
-.skills-proyects .skill{
+.app.dark-mode{
+    color: rgb(161 106 255);
+}
+ .skills-proyects .skill{
     font-size: 14px;
     font-weight: 400;
-    color: rgb(161 106 255);
     background-color: rgba(133, 76, 230, 0.082);
     padding: 2px 8px;
     border-radius: 10px;

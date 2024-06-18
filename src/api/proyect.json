@@ -90,8 +90,8 @@
         ],
         "title": "Booking",
         "desc": {
-            "Español": "Este es un concepto de la página de la escuela técnica todavía sigue en desarrollo y estoy guiando a los alumnos de la escuela a terminarlo.",
-            "English": "This is a concept for the technical school's website. It's still under development, and I'm guiding the school's students to finish it."
+            "Español": "Este es un proyecto personal de crear la pagina web de booking permitiendo el registro, inicio de sesión de usuarios, registrar hoteles y por hacer reservaciones. esta pagina es de código abierto.",
+            "English": "This is a personal project to create a booking website that allows user registration, login, hotel registration, and making reservations. This website is open-source."
         }
     }
 ]
