@@ -29,6 +29,12 @@ export function Skills(){
           "ani": 10
         },
         {
+          "icon": "icons/typescript.png",
+          "lenguaje": "TypeScript",
+          "color": "#ffdf00",
+          "ani": 10
+        },
+        {
           "icon": "icons/php.png",
           "lenguaje": "PHP",
           "color": "#777bb3",
@@ -70,12 +76,6 @@ export function Skills(){
           "color": "#b440fe",
           "ani": 6
         },
-        {
-          "icon": "icons/next.png",
-          "lenguaje": "NextJS",
-          "color": "#000",
-          "ani": 5
-        }
       ]
       
 

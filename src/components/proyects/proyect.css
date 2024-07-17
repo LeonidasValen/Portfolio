@@ -97,7 +97,7 @@
 .app .skills-proyects .skill{
     color:rgb(105 19 255) ;
 }
-.app.dark-mode{
+.app.dark-mode .skills-proyects .skill{
     color: rgb(161 106 255);
 }
  .skills-proyects .skill{
