@@ -24,11 +24,11 @@
 }
 
 .lenguaje-icon{
-    display: flex;
+    display: inline-grid;
     justify-content: center;
-    position: relative;
-    height: 80px;
-    transition: 0.3s all;
+    height: 70px;
+    width: 70px;
+    transition: .3s all;
 }
 
 

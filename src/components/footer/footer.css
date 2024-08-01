@@ -23,6 +23,10 @@
     text-shadow: 3px 2px 0px #9955c7, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
+.footer .footer-content a:hover{
+    text-decoration: underline;
+}
+
 .contact-content{
     display: flex;
     margin-top: 10px;
