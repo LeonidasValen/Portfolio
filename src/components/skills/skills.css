@@ -103,8 +103,9 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         height: auto;
-        gap: 38px;
-        column-gap: 16px;
+        row-gap: 44px;
+        column-gap: 26px;
+        padding-inline: 14px;
     }
     .lenguaje-icon{
         padding: 12px;
@@ -117,6 +118,7 @@
     }
     .lenguaje-content{
         gap: 12px;
+        padding-inline: 0;
     }
     .lenguaje-icon{
         padding: 0px;
