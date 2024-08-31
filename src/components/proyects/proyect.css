@@ -81,7 +81,7 @@
 }
 .info-proyect p{
     margin-top: 8px;
-    color: var(--grayFont);
+    color: var(--grayPost);
     font-size: 1.1rem;
     font-weight: 400;
 }
@@ -102,7 +102,7 @@
 }
  .skills-proyects .skill{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     background-color: rgba(133, 76, 230, 0.082);
     padding: 2px 8px;
     border-radius: 10px;

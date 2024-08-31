@@ -24,6 +24,7 @@
 }
 
 .lenguaje-icon{
+    position: relative;
     display: inline-grid;
     justify-content: center;
     height: 70px;
@@ -44,6 +45,19 @@
     height: 70px;
     width: 70px;
     transition: 0.3s all;
+}
+
+.lenguaje-icon::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.lenguaje-icon:hover::before{
+    border: 1px solid blue;
+    transition: border-color .3s ease, backdrop-filter .3s ease, -webkit-backdrop-filter .3s ease;
 }
 
 .lenguaje-icon img{

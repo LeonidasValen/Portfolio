@@ -3,48 +3,89 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 3rem;
+    border-top: 1px solid #535253;
 }
 .footer .footer-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top: 1px solid #535253;
-    margin: 0 10px;
-    padding-bottom: 1.2rem;
-}
-
-.footer-content .footer-text{
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 64rem;
+    gap: 2rem;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .footer .footer-content h1{
     letter-spacing: 0.05em;
-    text-shadow: 3px 2px 0px #9955c7, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 2px 0px #9955c7;
+    font-size: 2.125rem;
+    line-height: 1.75rem;
 }
 
-.footer .footer-content a:hover{
+.footer .footer-content .cLink:hover{
     text-decoration: underline;
 }
 
-.contact-content{
-    display: flex;
-    margin-top: 10px;
-    gap: 30px;
+.footerGrid{
+    display: grid;
+    gap: .6rem;
+    max-width: 290px;
 }
-.contact-content .contact{
+
+.footerGrid .contact{
+    display: grid;
+    gap: 0.5rem;
+}
+
+.contact .cLink{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.fIconSocial{
+    display: grid;
+    gap: .5rem;
+}
+
+.fIconSocial .btn-bg{
+    display: grid;
+    width: fit-content;
+    gap: .5rem;
+}
+.fIconSocial .btn-bg:hover{
+    text-decoration: underline;
+}
+
+.fIconSocial .btn-bg button{
+    position: relative;
+    background: var(--bgcl);
+    color: var(--colorFont);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--colorFont);
-}
-.contact-content .contact svg{
-    margin-right: 5px;
+    gap: .5rem;
+    border: none;
+    padding: 2px 4px;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 490px) {
-    .contact-content{
-        flex-direction: column;
-        gap: 10px;
+@media screen and (max-width: 1200px) {
+    .footer .footer-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-inline: 2rem;
     }
+
+}
+
+@media screen and (max-width: 675px) {
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+
 }

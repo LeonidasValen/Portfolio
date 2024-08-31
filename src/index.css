@@ -16,17 +16,19 @@
 .app{
     --colorFont: #000;
     --bgcl: #f3f3f3;
-    --grayFont: #4e4e4e;
+    --grayFont: #151515;
+    --grayPost: #4e4e4e;
     --black-white: #fff;
     --box: #fff;
     --violet: #a896e5;
-    --purple: #8264f1;
+    --purple: #6e54ce;
     --hover:rgb(230 215 255);
 }
 .app.dark-mode{
     --bgcl: #141219;
     --colorFont: #fff;
-    --grayFont: #cacaca;
+    --grayFont: #e9e9e9;
+    --grayPost: 	rgb(192, 189, 201);
     --black-white: #000;
     --violet: #2f2259;
     --purple: #c055ff ;
