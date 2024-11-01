@@ -18,17 +18,19 @@
     },
     {
         "id": "pro2",
-        "href": "https://leonidasvalen.github.io/netflix-clone/",
-        "thumbnail": "./img/netflix.png",
+        "href": "https://cocteleria.vercel.app",
+        "thumbnail": "./img/cocteleria.png",
         "skills": [
             "ReactJS",
             "ViteJS",
-            "CSS"
+            "NodeJS",
+            "Express",
+            "MongoDB"
         ],
-        "title": "Netflix",
+        "title": "Cocteleria",
         "desc": {
-            "Español": "Intento de copia de Netflix. Si no te deja entrar, haz clic en \"detalles\" y \"visita este sitio no seguro\".",
-            "English": "Attempt to clone Netflix. If it doesn't let you in, click on \"details\" and \"visit this unsafe site\"."
+            "Español": "Este una pagina de cocteleria que voy aprendinedo en un cuso. en esta pagina subo todos los cocteles que voy aprendiendo incluso con las recetas de los cocteles.",
+            "English": "This is a cocktail page that I’m developing as I learn in a course. On this page, I upload all the cocktails I’m learning, including the recipes for each one."
         }
     },
     {
