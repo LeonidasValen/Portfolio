@@ -2,7 +2,7 @@
     {
         "id": "pro1",
         "href": "https://ubidec.dsdesarrollo.com.ar/",
-        "thumbnail": "./img/ubidec.png",
+        "thumbnail": "./img/ubined.png",
         "skills": [
             "HTML",
             "CSS",
@@ -12,8 +12,8 @@
         ],
         "title": "Ubidec",
         "desc": {
-            "Español": "¿Qué es Ubidec? Es una página informativa que proporciona información a las personas sobre institutos educativos, como la ubicación, información...",
-            "English": "What is Ubidec? It is an informative page that provides information to people about educational institutes, such as location, information..."
+            "Español": "¿Qué es Ubined? Es una página informativa que proporciona información a las personas sobre institutos educativos, como la ubicación, información...",
+            "English": "What is Ubined? It is an informative page that provides information to people about educational institutes, such as location, information..."
         }
     },
     {
