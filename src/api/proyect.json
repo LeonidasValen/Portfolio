@@ -50,7 +50,7 @@
     },
     {
         "id": "pro4",
-        "href": "https://github.com/LeonidasValen/Blog-users",
+        "href": "https://github.com/LeonidasValen/proyecto-utn-blog",
         "thumbnail": "./img/blog.png",
         "skills": [
             "ReactJS",
